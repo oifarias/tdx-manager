@@ -1,0 +1,371 @@
+{
+    "categories": [
+        {
+            "title": "Integração",
+            "icon": "ic-loop-outline",
+            "id": "0001",
+            "sub": [
+                {
+                    "title": "Olx",
+                    "icon": "ic-olx",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>O cliente possui o Plano Profissional?</p></b>", 
+                                "answer": "<p>Para cliente receber os leads com todos os dados será necessario publicar os veículos do nosso estoque para a OLX. <br> Caso contrario podemos ter o problema de veículos não identificados. E desabilitar o Chat OLX.</p>",
+                                "open": false
+                            },
+                            {
+                                "questionTitle": "<p><b>Integração via Email?</b></p>", 
+                                "answer": "<p> <b>Para</b> esse tipo de integração o cliente precisara está com o chat desablitado.</p>",
+                                "open": false
+                            },
+                            {
+                                "questionTitle": "<p><b>O estoque está publicado na OLX?</b></p>", 
+                                "answer": "<p>Entrar no <b>Cockpit -> Estoque -> Gerenciar Estoque </b> </p>",
+                                "open": false
+                            },
+                            {
+                                "questionTitle": "<p><b>O Chat na olx está desabilitado?</b></p>", 
+                                "answer": "<p> Para verificar isso precisamos abrir o anúncio da OLX vá em <b> Estoque -> Gerenciar estoque -> Ver anúncio (ná coluna da OLX) </b>  </p>",
+                                "open": false
+                            }
+                        ],	
+                    "confluence":"https://webmotors.atlassian.net/wiki/search?text=Olx&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=202e72b1-86b4-4209-a230-8cf0b67f43b1"                
+                    },
+                    "id": "0001-0001"},
+                {
+                    "title": "WhatsApp",
+                    "icon": "ic-whatsapp",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Como faço para ativar o whatsApp?</b></p>", 
+                                "answer": "<p>Para ativação do WhatsApp o clinte precisa solicitar para o comercial, onde sera feito um lançamento do produto. por um valor x no mês, depois o cliente precisa preencher as informações na tela <b> CRM -> Integrações </b></p>",
+                                "open": false
+                            },
+                            {
+                                "questionTitle": "<p><b>Botão de envio via WhatsApp não aparece?</b></p>", 
+                                "answer": "<p>Quando isso ocorre precisamos consultar com o time de dados para ver se a integração está ativa na tabela <b>tb_integrador</b> para isso passe o id de negociação que fica na url </p>",
+                                "open": false
+                            },
+                            {
+                                "questionTitle": "<p><b>Mensagem não é enviada?</b></p>", 
+                                "answer": "<p>Vericar na AppBee se o cnpj do cliente está ativo, caso não esteja verificar com o comercial se o plano do crm smart está ativo, criar um lead fluxo de loja com seu número do whats e enviar uma messagem teste, entrar no <b>CloudWatch -> Logs Insights </b> buscar por <b>whatsapp-publisher</b> e adicionar um '| filter Message like 'idpartner' '</p>",
+                                "open": false
+                            }
+                        ],
+						"confluence":"https://webmotors.atlassian.net/wiki/search?type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&text=WhatsApp&search_id=17daa6ee-c508-40c7-94e1-71004f7bc9c8"
+      
+                    },
+                    "id": "0001-0002"
+                },
+				{
+                    "title": "FaceBook",
+                    "icon": "ic-fb",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>A integração está ativa na tela?</b></p>", 
+                                "answer": "<p>Verificar com o cliente se a interação está ativa. </p>",
+                                "open": false
+                            },
+                            {
+                                "questionTitle": "<p><b>O cliente possui campanhas no facebook?</b></p>", 
+                                "answer": "<p>Verificar se as campanhas estão configuradas corretamente. </p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&text=FaceBook&search_id=a2d30cbb-b7a6-4e2b-91dd-36efe1c2933c"
+                    },
+                    "id": "0001-0003"
+                },
+				{
+                    "title": "Icarros",
+                    "icon": "ic-icarros",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>A integração está ativa na tela?</b></p>", 
+                                "answer": "<p>Verificar na tela de integração se está ativo. </p>",
+                                "open": false
+                            },
+                            {
+                                "questionTitle": "<p><b>Leads chegando sem informação do cliente?</b></p>", 
+                                "answer": "<p>Abrir uma chamado para o time poder verificar.</p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&text=Icarros&search_id=cf33dc12-cfe2-4bbb-b543-605c2335397d"
+                    },
+                    "id": "0001-0004"
+                }
+            ]
+        },
+		 {
+            "title": "Leads",
+            "icon": "ic-personal-user",
+            "id": "0002",
+            "sub": [
+                {
+                    "title": "Contestação",
+                    "icon": "PersonAddDisabled",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Alto volume de leads concentrado em um veículo?</p></b>", 
+                                "answer": "<p> Quando há alto volume leads para um mesmo anúncio, já descartada a hipótese acima, é preciso verificar se houve alguma Campanha no dia/período. Caso seja confirmada a Campanha (super exposição de anúncio de forma indevida), o Cliente deve pagar por 30 leads/mês vindos de Campanhas de mídia, sendo que os demais poderão ser contestados. </p>",
+                                "open": false
+                            },
+                            {
+                                "questionTitle": "<p><b>Leads duplicados?</b></p>", 
+                                "answer": "<p> Tínhamos um erro de duplicação de leads, cuja correção foi publicada em 10/08. Caso tenhamos leads duplicados cobráveis, estes poderão ser contestados.</p>",
+                                "open": false
+                            },
+							{
+                                "questionTitle": "<p><b>Muitos leads no mesmo dia em horas próximas (bot de leads)? </b></p>", 
+                                "answer": "<p> Quando há alto volume de leads enviados, existe a possibilidade de envio por bots, com horários de envio iguais ou muito próximos. Estes casos deverão ser direcionados para a equipe de Dados, Segurança da Info e do Portal, para análise de fraudes. Dependendo do resultado dessa análise os leads poderão ou não ser contestados. (aqui como a análise é demorada, sugerimos sempre avaliar se podemos obter a aprovação da contestação mesmo sem o parecer final, apenas com o alto indício de fraude/bot).</p>",
+                                "open": false
+                            },
+							{
+                                "questionTitle": "<p><b>Cliente com inadimplência alta continua recebendo leads? </b></p>", 
+                                "answer": "<p> Quando o Cliente tem inadimplência alta ou em outras situações onde isso ocorre, não deveria mas receber leads. Os leads recebidos nessa situação poderão ser contestados.</p>",
+                                "open": false
+                            },
+							{
+                                "questionTitle": "<p><b>Anúncio desativado no estoque que continua recebendo leads?</b></p>", 
+                                "answer": "<p>Quando um anúncio é desativado, o Cliente não deve mais receber leads deste. Os leads recebidos nessa situação poderão ser contestados.</p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/spaces/GDL/pages/1485996162/Contesta+o+de+Leads"
+                    },
+                    "id": "0002-0001"
+                },
+				{
+                    "title": "Distribuição",
+                    "icon": "AccountTree",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Sistema não distribui para ninguém?</p></b>", 
+                                "answer": "<p> A atualização dos vendedores e gerente CRM temos um cache de 1 hora para que a atualização de um novo vendedor/gerente crm entre no ranking, ou para atualizar um novo classificado atendido. </p>",
+                                "open": false
+                            },
+                            {
+                                "questionTitle": "<p><b>Sistema distribui só para 1 vendedor?</p></b>", 
+                                "answer": "<p> Caso o comprador ja tenha tido um contado com o vendedor, ele terá prioridade para receber o lead, caso atenda os requisitos. </p>",
+                                "open": false
+                            },
+                            {
+                                "questionTitle": "<p><b>Sistema não distribui para um vendedor especifico?</p></b>", 
+                                "answer": "<p> </p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=Distribui%C3%A7%C3%A3o&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=0f90e061-622d-4010-be02-75b87a59123b"
+                    },
+                    "id": "0002-0002"
+                },
+				{
+                    "title": "Recebimento",
+                    "icon": "Input",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Alto volume de leads concentrado em um veículo?</p></b>", 
+                                "answer": "<p> Quando há alto volume leads para um mesmo anúncio, já descartada a hipótese acima, é preciso verificar se houve alguma Campanha no dia/período. Caso seja confirmada a Campanha (super exposição de anúncio de forma indevida), o Cliente deve pagar por 30 leads/mês vindos de Campanhas de mídia, sendo que os demais poderão ser contestados. </p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=Recebimento%20de%20lead&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=0f90e061-622d-4010-be02-75b87a59123b"
+                    },
+                    "id": "0002-0003"
+                },
+				{
+                    "title": "Status",
+                    "icon": "Assistant",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Cliente não consegue atualizar o status?</p></b>", 
+                                "answer": "<p> Verificar com time se estamos com instabilidade e abrir um card com o número do lead para gerar o update.</p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=Status%20Leads&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=f8c50710-1ef6-4aa2-bb39-bd743b0c8575"
+                    },
+                    "id": "0002-0004"
+                },
+				{
+                    "title": "Cobrança",
+                    "icon": "Receipt",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Lead cobrado de maneira inadequada?</p></b>", 
+                                "answer": "<p> Usar o Board do Tableau para análise. </p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=Cobran%C3%A7a&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=f8c50710-1ef6-4aa2-bb39-bd743b0c8575"
+                    },
+                    "id": "0002-0005"
+                },
+				{
+                    "title": "Respostas",
+                    "icon": "QuestionAnswer",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Mensagem não é enviada?</p></b>", 
+                                "answer": "<p>  </p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=resposta&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=f8c50710-1ef6-4aa2-bb39-bd743b0c8575"
+                    },
+                    "id": "0002-0006"
+                },
+				{
+                    "title": "Migração",
+                    "icon": "CallSplit",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Migração de leads de um cnpj para outro?</p></b>", 
+                                "answer": "<p> Abrir um chamado para o time se programar com as taferas para fazer essa migração. Pegar a informação de quantos leads serão migrados </p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=Migra%C3%A7%C3%A3o&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=f8c50710-1ef6-4aa2-bb39-bd743b0c8575"
+                    },
+                    "id": "0002-0007"
+                }
+            ]
+		},
+		 {
+            "title": "Ranking",
+            "icon": "AccountCircle",
+            "id": "0003",
+            "sub": [
+                {
+                    "title": "Atualização",
+                    "icon": "Update",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Ranking não atualiza?</p></b>", 
+                                "answer": "<p> a atualização dos vendedores e gerente CRM temos um cache de 1 hora para que a atualização de um novo vendedor/gerente crm entre no ranking, ou para atualizar um novo classificado atendido.  </p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=Ranking&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=f8c50710-1ef6-4aa2-bb39-bd743b0c8575"
+                    },
+                    "id": "0003-0001"
+                },
+				 {
+                    "title": "Erro no Ranking",
+                    "icon": "BugReport",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Ranking não carrega?</p></b>", 
+                                "answer": "<p>Verificar com o Time se o serviço está fora do ar.</p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=Erro%20no%20Ranking&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=f8c50710-1ef6-4aa2-bb39-bd743b0c8575"
+                    },
+                    "id": "0003-0002"
+                }
+            ]
+		},
+		{
+            "title": "Permissão",
+            "icon": "ic-seguro",
+            "id": "0004",
+            "sub": [
+                {
+                    "title": "Usuário sem Permissão",
+                    "icon": "ic-personal-user",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Usuário sem acesso a alguma tela?</p></b>", 
+                                "answer": "<p> Somente o usuário gerente crm possui permissão para alterar acessos de outros vendedores. </p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=Permiss%C3%A3o&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=f8c50710-1ef6-4aa2-bb39-bd743b0c8575"
+                    },
+                    "id": "0004-0001"
+                }
+            ]
+		},
+		{
+            "title": "Kanban",
+            "icon": "ic-historico",
+            "id": "0005",
+            "sub": [
+                {
+                    "title": "Atualização de cards",
+                    "icon": "Update",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Negociação não atualiza?</p></b>", 
+                                "answer": "<p> Entrar em contato com o time de dados para realizar um update naquela negociação. </p>",
+                                "open": false
+                            },
+                            {
+                                "questionTitle": "<p><b>Leads com +7 dias sem interação poluindo o kanban</p></b>", 
+                                "answer": "<p> Essse Problema acontece quando o serviço de expurgo não está ligado ou com algum problema, verificar com o time do crm, em contra partida orientar o cliente a usar o filtro de datas. </p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=Kanban&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=f8c50710-1ef6-4aa2-bb39-bd743b0c8575"
+                    },
+                    "id": "0005-0001"
+                }
+            ]
+		},
+		{
+            "title": "Relatórios",
+            "icon": "ListAlt",
+            "id": "0006",
+            "sub": [
+                {
+                    "title": "Divergencia",
+                    "icon": "ReportProblem",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>O relatório não possui algum dado?</p></b>", 
+                                "answer": "<p> Abrir um card solicitando avaliação do time. </p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=Relat%C3%B3rios&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=f8c50710-1ef6-4aa2-bb39-bd743b0c8575"
+                    },
+                    "id": "0006-0001"
+                },
+                {
+                    "title": "Novo Relatório",
+                    "icon": "ReportProblem",
+                    "content": {
+                        "questions": [
+                            {
+                                "questionTitle": "<p><b>Cliente solicita um novo relatório?</p></b>", 
+                                "answer": "<p> Abrir um card solicitando avaliação do time. </p>",
+                                "open": false
+                            }
+                        ],
+                        "confluence":"https://webmotors.atlassian.net/wiki/search?text=Relat%C3%B3rios&type=page&labels=buscacarros%2Csites%2Cadm%2Cestoque%2Crequeriments%2Canuncios%2Cimportacaoestoque%2Chub%2Cpf%2Colx%2Cfotos%2Cfidelidade%2Ccrm%2Ccockpit&search_id=f8c50710-1ef6-4aa2-bb39-bd743b0c8575"
+                    },
+                    "id": "0006-0002"
+                }
+            ]
+        }
+    ]
+}

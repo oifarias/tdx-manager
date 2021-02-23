@@ -1,0 +1,45 @@
+.title {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-bottom: 60px;
+    display: flex;
+    padding: 17px 20px 17px 20px;
+    background-color: #eeeeee;
+    color: #000000;
+    z-index: 40;
+}
+
+.icon {
+    padding: 0 20px 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column;
+    padding: 0 15px; */
+    font-size: 18px;
+}
+
+.divider {
+    display: flex;
+    width: 100%;
+    background: transparent;
+    height: 1px;
+}
+
+.logout {
+    margin: 5px 0 0 auto;
+    font-size: 11px; 
+}
+
+.first{
+    visibility: hidden;
+}
+.imgage{
+    width: 8%;
+}

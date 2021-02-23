@@ -1,0 +1,44 @@
+{
+    "categories": [
+        {
+            "title": "Dados Time Ativo",
+            "icon": "ic-seguro",
+            "id": "0001"
+        },
+        {
+            "title": "Dados Time OFF",
+            "icon": "ReportProblem",
+            "id": "0002"
+        },
+        {
+            "title": "Time FGC",
+            "icon": "Receipt",
+            "id": "0003"
+        },
+        {
+            "title": "Time BTG",
+            "icon": "ic-personal-user",
+            "id": "0004"
+        },
+        {
+            "title": "Time GNDI",
+            "icon": "BugReport",
+            "id": "0005"
+        },
+        {
+            "title": "Time FH",
+            "icon": "Assistant",
+            "id": "0006"
+        },
+        {
+            "title": "Time Sem Parar",
+            "icon": "ListAlt",
+            "id": "0007"
+        },
+        {
+            "title": "Cliente X Gestor",
+            "icon": "ic-loop-outline",
+            "id": "0008"
+        }
+    ]
+}
